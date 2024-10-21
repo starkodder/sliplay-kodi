@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.example"
+version="3.0.1"
+name="SLIPlay"
+provider-name="starkodder">
+<requires>
+  <import addon="xbmc.python" version="3.0.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">Lets you watch movies from SLIPlay. </summary>
+  <description lang="en_GB">A video plugin for Kodi mediacenter that allows you to watch movies from SLIPLAY.</description>
+  <disclaimer lang="en_GB">All movies are provided by sliplay.se as is, we take no responsibility of what you do with the content.</disclaimer>
+  <license>GPL-3.0-only	</license>
+  <assets>
+    <icon>resources/images/icon.png</icon>
+    <fanart>resources/images/fanart.jpg</fanart>
+    <screenshot>resources/images/screenshot-1.jpg</screenshot>
+    <screenshot>resources/images/screenshot-2.jpg</screenshot>
+  </assets>
+  <news>Updated with latest artwork metadata</news>
+</extension>
+</addon>
